@@ -235,7 +235,7 @@ export default function Footer() {
         </div>
 
         <p className="text-center text-sm text-muted-foreground">
-          &copy; {new Date().getFullYear()} Bondhu Currier. All rights reserved.
+          &copy; {new Date().getFullYear()} OmniBOX. All rights reserved.
         </p>
       </div>
     </footer>

@@ -163,7 +163,7 @@ return (
         <div className="space-y-4 text-gray-900 dark:text-white">
           <div>
             <h3 className="font-medium">Address</h3>
-            <p>123 Bondhu Currier Street, Dhaka, Bangladesh</p>
+            <p>123 OmniBOX Street, Dhaka, Bangladesh</p>
           </div>
           <div>
             <h3 className="font-medium">Phone</h3>
@@ -171,7 +171,7 @@ return (
           </div>
           <div>
             <h3 className="font-medium">Email</h3>
-            <p>info@bondhucurrier.com</p>
+            <p>info@OmniBOX.com</p>
           </div>
           <div>
             <h3 className="font-medium">Working Hours</h3>
