@@ -136,33 +136,33 @@ export function RegisterForm({
             />
 
             {/* Role */}
-         <FormField
-  control={form.control}
-  name="role"
-  render={({ field }) => (
-    <FormItem>
-      <FormLabel>Role</FormLabel>
-      <FormControl>
-        <Select
-          onValueChange={(value) => field.onChange(value)}
-          value={field.value || ""}
-        >
-          <SelectTrigger className="w-full">
-            <SelectValue placeholder="Select Role" />
-          </SelectTrigger>
-          <SelectContent>
-            <SelectGroup>
-              <SelectLabel>Roles</SelectLabel>
-              <SelectItem value="SENDER">Sender</SelectItem>
-              <SelectItem value="RECEIVER">Receiver</SelectItem>
-            </SelectGroup>
-          </SelectContent>
-        </Select>
-      </FormControl>
-      <FormMessage />
-    </FormItem>
-  )}
-/>
+            <FormField
+              control={form.control}
+              name="role"
+              render={({ field }) => (
+                <FormItem>
+                  <FormLabel>Role</FormLabel>
+                  <FormControl>
+                    <Select
+                      onValueChange={(value) => field.onChange(value)}
+                      value={field.value || ""}
+                    >
+                      <SelectTrigger className="w-full">
+                        <SelectValue placeholder="Select Role" />
+                      </SelectTrigger>
+                      <SelectContent>
+                        <SelectGroup>
+                          <SelectLabel>Roles</SelectLabel>
+                          <SelectItem value="SENDER">Vendor</SelectItem>
+                          <SelectItem value="RECEIVER">Customer</SelectItem>
+                        </SelectGroup>
+                      </SelectContent>
+                    </Select>
+                  </FormControl>
+                  <FormMessage />
+                </FormItem>
+              )}
+            />
 
 
 

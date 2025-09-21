@@ -20,7 +20,8 @@ import { receiverSidebarItems } from "./receiverSidebarItems";
 import Tracking from "@/pages/User/tracking";
 import Contact from "@/pages/Contact";
 import FAQ from "@/pages/FAQ";
-import Features from "@/pages/Features";
+import Shops from "@/pages/Shops";
+
 
 
 export const router = createBrowserRouter([
@@ -41,6 +42,10 @@ export const router = createBrowserRouter([
         path: "track",
       },
       {
+        Component: Shops,
+        path: "Shops",
+      },
+      {
         Component: Tracking,
         path: "tracking/:trackingId",
       },
@@ -48,10 +53,7 @@ export const router = createBrowserRouter([
         Component: Contact,
         path: "Contact",
       },
-      {
-        Component: Features,
-        path: "Features",
-      },
+     
       {
         Component: FAQ,
         path: "FAQ",

@@ -26,8 +26,10 @@ import { toast } from "sonner";
 // Navigation links array to be used in both desktop and mobile menus
 const navigationLinks = [
   { href: "/", label: "Home", role: "PUBLIC" },
-  { href: "/Track", label: "Track Parcel", role: "PUBLIC" },
-  { href: "/Features", label: "Features", role: "PUBLIC" },
+  { href: "/Shops", label: "Shops", role: "PUBLIC" },
+  { href: "/Resturants", label: "Resturants", role: "PUBLIC" },
+  { href: "/Track", label: "Track Order", role: "PUBLIC" },
+  
   { href: "/FAQ", label: "FAQ", role: "PUBLIC" },
   { href: "/Contact", label: "Contact", role: "PUBLIC" },
   { href: "/About", label: "About", role: "PUBLIC" },

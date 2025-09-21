@@ -29,7 +29,7 @@ export default function Tracking() {
         {/* Tracking Input Bar */}
         <div className="mb-6 flex flex-col sm:flex-row gap-4 items-center">
           <h1 className="text-2xl font-bold text-gray-800 dark:text-gray-100 flex-1">
-            Track Your Parcel
+            Track Your Order
           </h1>
           <form onSubmit={handleSubmit} className="flex flex-1 gap-2 w-full sm:w-auto">
             <input

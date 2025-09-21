@@ -15,7 +15,7 @@ const faqs: FAQItem[] = [
   {
     question: "How can I track my parcel?",
     answer:
-      "You can track your parcel using the Tracking ID provided after booking. Enter the ID in the tracking section to see real-time updates."
+      "You can Track Your Order using the Tracking ID provided after booking. Enter the ID in the tracking section to see real-time updates."
   },
   {
     question: "What parcel types are supported?",

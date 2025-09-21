@@ -23,7 +23,7 @@ export default function Track() {
         </div>
 
         <h1 className="text-3xl font-bold text-gray-800 dark:text-gray-100 mb-2">
-          Track Your Parcel
+          Track Your Order
         </h1>
         <p className="text-gray-600 dark:text-gray-300 mb-6">
           Enter your tracking ID below to see the latest updates on your shipment.
